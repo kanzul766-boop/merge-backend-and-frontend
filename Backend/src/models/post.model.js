@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
 
 const postSchema= new mongoose.Schema({
-    title:String,
+    image:String,
     desc: String,
 })
 const postModel = mongoose.model("post",postSchema)

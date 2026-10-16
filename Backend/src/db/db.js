@@ -4,7 +4,7 @@ import mongoose from "mongoose"
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://umrabadar55_db_user:VJXbAtGiYJkKj0cb@cluster0.bfhjuob.mongodb.net/post');
+  await mongoose.connect('mongodb+srv://kanzul766_db_user:6XCynCPfJeamRVhB@sit-app.c9471vt.mongodb.net/notes');
   console.log("Connected to DB");
 }
 export default main
